@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CirclePulseDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Animation 1" id="ojI-vb-qZQ">
+                            <connections>
+                                <segue destination="arj-bg-AwS" kind="push" id="4U9-Ls-pS4"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Animation 2" id="Rdh-a4-FCc">
+                            <connections>
+                                <segue destination="cAE-H0-WHG" kind="push" id="fqI-37-Cii"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="295" y="417"/>
+        </scene>
+        <!--Animation Two Controller-->
+        <scene sceneID="zlH-zo-9dy">
+            <objects>
+                <controller id="cAE-H0-WHG" customClass="AnimationTwoController" customModule="CirclePulseDemo_WatchKit_Extension">
+                    <items>
+                        <imageView width="40" height="40" alignment="center" verticalAlignment="center" id="aag-R7-6mV"/>
+                    </items>
+                    <connections>
+                        <outlet property="img" destination="aag-R7-6mV" id="zuy-SX-oxK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="544" y="632"/>
+        </scene>
+        <!--Animation One Controller-->
+        <scene sceneID="er8-hZ-NMR">
+            <objects>
+                <controller id="arj-bg-AwS" customClass="AnimationOneController" customModule="CirclePulseDemo_WatchKit_Extension">
+                    <items>
+                        <imageView width="68" height="68" alignment="center" verticalAlignment="center" id="g1O-uL-Yag"/>
+                    </items>
+                    <connections>
+                        <outlet property="img" destination="g1O-uL-Yag" id="ucN-S2-CXY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="536" y="195"/>
+        </scene>
+    </scenes>
+</document>

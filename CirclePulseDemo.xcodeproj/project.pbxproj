@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C836D4AF1B04813A001FC3A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4AE1B04813A001FC3A2 /* AppDelegate.swift */; };
+		C836D4B11B04813A001FC3A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4B01B04813A001FC3A2 /* ViewController.swift */; };
+		C836D4B41B04813A001FC3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C836D4B21B04813A001FC3A2 /* Main.storyboard */; };
+		C836D4B61B04813A001FC3A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C836D4B51B04813A001FC3A2 /* Images.xcassets */; };
+		C836D4B91B04813A001FC3A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C836D4B71B04813A001FC3A2 /* LaunchScreen.xib */; };
+		C836D4C51B04813A001FC3A2 /* CirclePulseDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4C41B04813A001FC3A2 /* CirclePulseDemoTests.swift */; };
+		C836D4D71B048159001FC3A2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4D61B048159001FC3A2 /* InterfaceController.swift */; };
+		C836D4D91B048159001FC3A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C836D4D81B048159001FC3A2 /* Images.xcassets */; };
+		C836D4DD1B048159001FC3A2 /* CirclePulseDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C836D4DC1B048159001FC3A2 /* CirclePulseDemo WatchKit App.app */; };
+		C836D4E51B048159001FC3A2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C836D4E31B048159001FC3A2 /* Interface.storyboard */; };
+		C836D4E71B048159001FC3A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C836D4E61B048159001FC3A2 /* Images.xcassets */; };
+		C836D4EA1B048159001FC3A2 /* CirclePulseDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C836D4D21B048159001FC3A2 /* CirclePulseDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C836D4F31B0481E6001FC3A2 /* AnimationOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4F21B0481E6001FC3A2 /* AnimationOneController.swift */; };
+		C836D4F51B0481F6001FC3A2 /* AnimationTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4F41B0481F6001FC3A2 /* AnimationTwoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C836D4BF1B04813A001FC3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C836D4A11B04813A001FC3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C836D4A81B04813A001FC3A2;
+			remoteInfo = CirclePulseDemo;
+		};
+		C836D4DE1B048159001FC3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C836D4A11B04813A001FC3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C836D4DB1B048159001FC3A2;
+			remoteInfo = "CirclePulseDemo WatchKit App";
+		};
+		C836D4E81B048159001FC3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C836D4A11B04813A001FC3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C836D4D11B048159001FC3A2;
+			remoteInfo = "CirclePulseDemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C836D4F11B048159001FC3A2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C836D4EA1B048159001FC3A2 /* CirclePulseDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C836D4A91B04813A001FC3A2 /* CirclePulseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirclePulseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C836D4AD1B04813A001FC3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C836D4AE1B04813A001FC3A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C836D4B01B04813A001FC3A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C836D4B31B04813A001FC3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C836D4B51B04813A001FC3A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C836D4B81B04813A001FC3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C836D4BE1B04813A001FC3A2 /* CirclePulseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirclePulseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C836D4C31B04813A001FC3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C836D4C41B04813A001FC3A2 /* CirclePulseDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePulseDemoTests.swift; sourceTree = "<group>"; };
+		C836D4D21B048159001FC3A2 /* CirclePulseDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CirclePulseDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C836D4D51B048159001FC3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C836D4D61B048159001FC3A2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C836D4D81B048159001FC3A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C836D4DC1B048159001FC3A2 /* CirclePulseDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CirclePulseDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C836D4E21B048159001FC3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C836D4E41B048159001FC3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C836D4E61B048159001FC3A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C836D4F21B0481E6001FC3A2 /* AnimationOneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationOneController.swift; sourceTree = "<group>"; };
+		C836D4F41B0481F6001FC3A2 /* AnimationTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTwoController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C836D4A61B04813A001FC3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4BB1B04813A001FC3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4CF1B048159001FC3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C836D4A01B04813A001FC3A2 = {
+			isa = PBXGroup;
+			children = (
+				C836D4AB1B04813A001FC3A2 /* CirclePulseDemo */,
+				C836D4C11B04813A001FC3A2 /* CirclePulseDemoTests */,
+				C836D4D31B048159001FC3A2 /* CirclePulseDemo WatchKit Extension */,
+				C836D4E01B048159001FC3A2 /* CirclePulseDemo WatchKit App */,
+				C836D4AA1B04813A001FC3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C836D4AA1B04813A001FC3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4A91B04813A001FC3A2 /* CirclePulseDemo.app */,
+				C836D4BE1B04813A001FC3A2 /* CirclePulseDemoTests.xctest */,
+				C836D4D21B048159001FC3A2 /* CirclePulseDemo WatchKit Extension.appex */,
+				C836D4DC1B048159001FC3A2 /* CirclePulseDemo WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C836D4AB1B04813A001FC3A2 /* CirclePulseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4AE1B04813A001FC3A2 /* AppDelegate.swift */,
+				C836D4B01B04813A001FC3A2 /* ViewController.swift */,
+				C836D4B21B04813A001FC3A2 /* Main.storyboard */,
+				C836D4B51B04813A001FC3A2 /* Images.xcassets */,
+				C836D4B71B04813A001FC3A2 /* LaunchScreen.xib */,
+				C836D4AC1B04813A001FC3A2 /* Supporting Files */,
+			);
+			path = CirclePulseDemo;
+			sourceTree = "<group>";
+		};
+		C836D4AC1B04813A001FC3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4AD1B04813A001FC3A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C836D4C11B04813A001FC3A2 /* CirclePulseDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4C41B04813A001FC3A2 /* CirclePulseDemoTests.swift */,
+				C836D4C21B04813A001FC3A2 /* Supporting Files */,
+			);
+			path = CirclePulseDemoTests;
+			sourceTree = "<group>";
+		};
+		C836D4C21B04813A001FC3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4C31B04813A001FC3A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C836D4D31B048159001FC3A2 /* CirclePulseDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4F21B0481E6001FC3A2 /* AnimationOneController.swift */,
+				C836D4F41B0481F6001FC3A2 /* AnimationTwoController.swift */,
+				C836D4D61B048159001FC3A2 /* InterfaceController.swift */,
+				C836D4D81B048159001FC3A2 /* Images.xcassets */,
+				C836D4D41B048159001FC3A2 /* Supporting Files */,
+			);
+			path = "CirclePulseDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C836D4D41B048159001FC3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4D51B048159001FC3A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C836D4E01B048159001FC3A2 /* CirclePulseDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4E31B048159001FC3A2 /* Interface.storyboard */,
+				C836D4E61B048159001FC3A2 /* Images.xcassets */,
+				C836D4E11B048159001FC3A2 /* Supporting Files */,
+			);
+			path = "CirclePulseDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		C836D4E11B048159001FC3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C836D4E21B048159001FC3A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C836D4A81B04813A001FC3A2 /* CirclePulseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C836D4C81B04813A001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo" */;
+			buildPhases = (
+				C836D4A51B04813A001FC3A2 /* Sources */,
+				C836D4A61B04813A001FC3A2 /* Frameworks */,
+				C836D4A71B04813A001FC3A2 /* Resources */,
+				C836D4F11B048159001FC3A2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C836D4E91B048159001FC3A2 /* PBXTargetDependency */,
+			);
+			name = CirclePulseDemo;
+			productName = CirclePulseDemo;
+			productReference = C836D4A91B04813A001FC3A2 /* CirclePulseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C836D4BD1B04813A001FC3A2 /* CirclePulseDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C836D4CB1B04813A001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemoTests" */;
+			buildPhases = (
+				C836D4BA1B04813A001FC3A2 /* Sources */,
+				C836D4BB1B04813A001FC3A2 /* Frameworks */,
+				C836D4BC1B04813A001FC3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C836D4C01B04813A001FC3A2 /* PBXTargetDependency */,
+			);
+			name = CirclePulseDemoTests;
+			productName = CirclePulseDemoTests;
+			productReference = C836D4BE1B04813A001FC3A2 /* CirclePulseDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C836D4D11B048159001FC3A2 /* CirclePulseDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C836D4EE1B048159001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo WatchKit Extension" */;
+			buildPhases = (
+				C836D4CE1B048159001FC3A2 /* Sources */,
+				C836D4CF1B048159001FC3A2 /* Frameworks */,
+				C836D4D01B048159001FC3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C836D4DF1B048159001FC3A2 /* PBXTargetDependency */,
+			);
+			name = "CirclePulseDemo WatchKit Extension";
+			productName = "CirclePulseDemo WatchKit Extension";
+			productReference = C836D4D21B048159001FC3A2 /* CirclePulseDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C836D4DB1B048159001FC3A2 /* CirclePulseDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C836D4EB1B048159001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo WatchKit App" */;
+			buildPhases = (
+				C836D4DA1B048159001FC3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CirclePulseDemo WatchKit App";
+			productName = "CirclePulseDemo WatchKit App";
+			productReference = C836D4DC1B048159001FC3A2 /* CirclePulseDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C836D4A11B04813A001FC3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Falco Tomasetti";
+				TargetAttributes = {
+					C836D4A81B04813A001FC3A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C836D4BD1B04813A001FC3A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C836D4A81B04813A001FC3A2;
+					};
+					C836D4D11B048159001FC3A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C836D4DB1B048159001FC3A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C836D4A41B04813A001FC3A2 /* Build configuration list for PBXProject "CirclePulseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C836D4A01B04813A001FC3A2;
+			productRefGroup = C836D4AA1B04813A001FC3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C836D4A81B04813A001FC3A2 /* CirclePulseDemo */,
+				C836D4BD1B04813A001FC3A2 /* CirclePulseDemoTests */,
+				C836D4D11B048159001FC3A2 /* CirclePulseDemo WatchKit Extension */,
+				C836D4DB1B048159001FC3A2 /* CirclePulseDemo WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C836D4A71B04813A001FC3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836D4B41B04813A001FC3A2 /* Main.storyboard in Resources */,
+				C836D4B91B04813A001FC3A2 /* LaunchScreen.xib in Resources */,
+				C836D4B61B04813A001FC3A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4BC1B04813A001FC3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4D01B048159001FC3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836D4DD1B048159001FC3A2 /* CirclePulseDemo WatchKit App.app in Resources */,
+				C836D4D91B048159001FC3A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4DA1B048159001FC3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836D4E51B048159001FC3A2 /* Interface.storyboard in Resources */,
+				C836D4E71B048159001FC3A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C836D4A51B04813A001FC3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836D4B11B04813A001FC3A2 /* ViewController.swift in Sources */,
+				C836D4AF1B04813A001FC3A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4BA1B04813A001FC3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836D4C51B04813A001FC3A2 /* CirclePulseDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C836D4CE1B048159001FC3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836D4D71B048159001FC3A2 /* InterfaceController.swift in Sources */,
+				C836D4F51B0481F6001FC3A2 /* AnimationTwoController.swift in Sources */,
+				C836D4F31B0481E6001FC3A2 /* AnimationOneController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C836D4C01B04813A001FC3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C836D4A81B04813A001FC3A2 /* CirclePulseDemo */;
+			targetProxy = C836D4BF1B04813A001FC3A2 /* PBXContainerItemProxy */;
+		};
+		C836D4DF1B048159001FC3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C836D4DB1B048159001FC3A2 /* CirclePulseDemo WatchKit App */;
+			targetProxy = C836D4DE1B048159001FC3A2 /* PBXContainerItemProxy */;
+		};
+		C836D4E91B048159001FC3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C836D4D11B048159001FC3A2 /* CirclePulseDemo WatchKit Extension */;
+			targetProxy = C836D4E81B048159001FC3A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C836D4B21B04813A001FC3A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C836D4B31B04813A001FC3A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C836D4B71B04813A001FC3A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C836D4B81B04813A001FC3A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C836D4E31B048159001FC3A2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C836D4E41B048159001FC3A2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C836D4C61B04813A001FC3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C836D4C71B04813A001FC3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C836D4C91B04813A001FC3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CirclePulseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C836D4CA1B04813A001FC3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CirclePulseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C836D4CC1B04813A001FC3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CirclePulseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CirclePulseDemo.app/CirclePulseDemo";
+			};
+			name = Debug;
+		};
+		C836D4CD1B04813A001FC3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CirclePulseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CirclePulseDemo.app/CirclePulseDemo";
+			};
+			name = Release;
+		};
+		C836D4EC1B048159001FC3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CirclePulseDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "CirclePulseDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C836D4ED1B048159001FC3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CirclePulseDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "CirclePulseDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C836D4EF1B048159001FC3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CirclePulseDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C836D4F01B048159001FC3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CirclePulseDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C836D4A41B04813A001FC3A2 /* Build configuration list for PBXProject "CirclePulseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C836D4C61B04813A001FC3A2 /* Debug */,
+				C836D4C71B04813A001FC3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C836D4C81B04813A001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C836D4C91B04813A001FC3A2 /* Debug */,
+				C836D4CA1B04813A001FC3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C836D4CB1B04813A001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C836D4CC1B04813A001FC3A2 /* Debug */,
+				C836D4CD1B04813A001FC3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C836D4EB1B048159001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C836D4EC1B048159001FC3A2 /* Debug */,
+				C836D4ED1B048159001FC3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C836D4EE1B048159001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C836D4EF1B048159001FC3A2 /* Debug */,
+				C836D4F01B048159001FC3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C836D4A11B04813A001FC3A2 /* Project object */;
+}
