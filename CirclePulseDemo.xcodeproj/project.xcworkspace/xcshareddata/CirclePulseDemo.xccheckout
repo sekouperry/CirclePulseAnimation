@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>055E3422-757F-4929-B0BC-86753CF24986</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CirclePulseDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6278C2A68E088CA7740FE8BC3FBE228D4258CB9</key>
+		<string>https://github.com/tofa84/CirclePulseAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CirclePulseDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6278C2A68E088CA7740FE8BC3FBE228D4258CB9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tofa84/CirclePulseAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6278C2A68E088CA7740FE8BC3FBE228D4258CB9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6278C2A68E088CA7740FE8BC3FBE228D4258CB9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CirclePulseDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

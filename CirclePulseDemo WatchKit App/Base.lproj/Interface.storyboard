@@ -11,19 +11,41 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CirclePulseDemo_WatchKit_App" customModuleProvider="target">
                     <items>
                         <button width="1" alignment="left" title="Animation 1" id="ojI-vb-qZQ">
+                            <fontDescription key="font" type="system" pointSize="13"/>
                             <connections>
                                 <segue destination="arj-bg-AwS" kind="push" id="4U9-Ls-pS4"/>
                             </connections>
                         </button>
-                        <button width="1" alignment="left" title="Animation 2" id="Rdh-a4-FCc">
+                        <button width="1" alignment="left" title="Animation 2 yellow" id="Rdh-a4-FCc">
+                            <fontDescription key="font" type="system" pointSize="13"/>
                             <connections>
                                 <segue destination="cAE-H0-WHG" kind="push" id="fqI-37-Cii"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Animation 2 green" id="KAK-WV-5mz">
+                            <fontDescription key="font" type="system" pointSize="13"/>
+                            <connections>
+                                <segue destination="DwP-Nc-805" kind="push" id="Udf-iB-KPb"/>
                             </connections>
                         </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="295" y="417"/>
+        </scene>
+        <!--Animation Three Controller-->
+        <scene sceneID="9pI-W8-T3c">
+            <objects>
+                <controller id="DwP-Nc-805" customClass="AnimationThreeController" customModule="CirclePulseDemo_WatchKit_Extension">
+                    <items>
+                        <imageView width="40" height="40" alignment="center" verticalAlignment="center" id="Pey-RK-FFc"/>
+                    </items>
+                    <connections>
+                        <outlet property="img" destination="Pey-RK-FFc" id="3kb-pv-Q8T"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="309" y="698"/>
         </scene>
         <!--Animation Two Controller-->
         <scene sceneID="zlH-zo-9dy">

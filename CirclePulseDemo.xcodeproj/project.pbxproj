@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80451421B0564650026C014 /* AnimationThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80451411B0564650026C014 /* AnimationThreeController.swift */; };
 		C836D4AF1B04813A001FC3A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4AE1B04813A001FC3A2 /* AppDelegate.swift */; };
 		C836D4B11B04813A001FC3A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836D4B01B04813A001FC3A2 /* ViewController.swift */; };
 		C836D4B41B04813A001FC3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C836D4B21B04813A001FC3A2 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C80451411B0564650026C014 /* AnimationThreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationThreeController.swift; sourceTree = "<group>"; };
 		C836D4A91B04813A001FC3A2 /* CirclePulseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirclePulseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C836D4AD1B04813A001FC3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C836D4AE1B04813A001FC3A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				C836D4F21B0481E6001FC3A2 /* AnimationOneController.swift */,
 				C836D4F41B0481F6001FC3A2 /* AnimationTwoController.swift */,
+				C80451411B0564650026C014 /* AnimationThreeController.swift */,
 				C836D4D61B048159001FC3A2 /* InterfaceController.swift */,
 				C836D4D81B048159001FC3A2 /* Images.xcassets */,
 				C836D4D41B048159001FC3A2 /* Supporting Files */,
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C836D4D71B048159001FC3A2 /* InterfaceController.swift in Sources */,
+				C80451421B0564650026C014 /* AnimationThreeController.swift in Sources */,
 				C836D4F51B0481F6001FC3A2 /* AnimationTwoController.swift in Sources */,
 				C836D4F31B0481E6001FC3A2 /* AnimationOneController.swift in Sources */,
 			);
@@ -649,6 +653,7 @@
 				C836D4CA1B04813A001FC3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C836D4CB1B04813A001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +662,7 @@
 				C836D4CD1B04813A001FC3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C836D4EB1B048159001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +671,7 @@
 				C836D4ED1B048159001FC3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C836D4EE1B048159001FC3A2 /* Build configuration list for PBXNativeTarget "CirclePulseDemo WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +680,7 @@
 				C836D4F01B048159001FC3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
